@@ -21,13 +21,8 @@ h6 {
     font-weight: var(--font-weight-bold);
 }
 
-a {
+a:hover {
     color: #161616;
-    text-decoration: none;
-}
-
-a:link {
-    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -36,6 +31,10 @@ a:visited {
 }
 
 a:hover {
+    background-color: var(--color-light-grey);
+}
+
+a:active {
     background-color: var(--color-light-grey);
 }
 
