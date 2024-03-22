@@ -34,8 +34,15 @@ a {
     color: #D73953;
 }
 
+.section-header {
+    text-align: var(--section-header-align);
+}
+
 .section-tagline {
     color: #D73953;
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
 }
 
 :root {
@@ -57,4 +64,6 @@ a {
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+    --section-header-align: center;
+    --section-tagline-transform: uppercase;
 }
