@@ -21,20 +21,18 @@ h6 {
     font-weight: var(--font-weight-bold);
 }
 
+/* styling for anchors with URL */
 a:link {
     color: #161616;
     text-decoration: none;
 }
 
-a:hover {
-    color: #161616;
-    text-decoration: none;
-}
-
+/* styling after click/visit anchor link */
 a:visited {
     font-style: italic;
 }
 
+/* styling when hover over anchors */
 a:hover {
     text-decoration: underline;
 }
@@ -42,7 +40,6 @@ a:hover {
 a:active {
     background-color: var(--color-light-grey);
 }
-
 .visually-hidden {
     display: none;
 }
